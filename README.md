@@ -4,5 +4,5 @@
 
 - [IoT](IoT/README.md)
 - [KI](KI/README.md)
-- [WebApp](WebApp/README.md)
+- [MobileApp](MobileApp/README.md)
 - [WebGame](WebGame/README.md)
