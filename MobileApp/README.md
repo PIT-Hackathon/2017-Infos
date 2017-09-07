@@ -11,8 +11,8 @@ Wir haben uns das Framework [Ionic](https://ionicframework.com/) rausgesucht, we
 ## Was muss ich können/mitbringen, um eine App beim Hackathon zu entwickeln?
 Ionic setzt auf TypeScript als Programmiersprache, die Screens werden in HTML geschrieben. Insofern hilft es natürlich, wenn man damit schon etwas gemacht hat. Aber ist das Voraussetzung? Auf gar keinen Fall! TypeScript als Sprache ist nicht so schwer, das kann man lernen. Und HTML ist auch kein Hexenwerk.
 
-https://ionicframework.com/
-https://www.typescriptlang.org/
+- https://ionicframework.com/
+- https://www.typescriptlang.org/
 
 
 ## Das hört sich schon mal gut an - wie geht es weiter?
