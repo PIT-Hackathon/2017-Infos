@@ -26,7 +26,7 @@ Folgende Tools werden wir für die Entwicklung verwenden
 
 #### Visual Studio Code
 Welchen Editor man für die Entwicklung nutzt, ist fast egal. Falls Du nicht auf einen bestimmten Editor festgelegt bist, lohnt sich auf jeden Fall ein Blick auf VS Code. Viele sind erstmal von "Visual Studio" irritiert und denken an die riesige Entwicklungsumgebung von Microsoft - aber VS Code heisst nur aus Marketing-Gründen wie der große Bruder, hat mit ihm aber eigentlich nichts zu tun. Dieser Text wurde übrigends mit VS Code geschrieben ;)
-https://code.visualstudio.com/
+- https://code.visualstudio.com/
 
 #### Node.js
 Node.js ist eine JavaScript-Laufzeitumgebung und ermöglicht das Ausführen von JavaScript außerhalb des Browsers möglich macht. Node.js bringt mit npm einen Paket-Manager mit, der den Zugriff auf das größte Ökosystem für Open Source Bibliotheken der Welt ermöglicht.
