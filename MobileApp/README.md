@@ -16,7 +16,21 @@ Ionic setzt auf TypeScript als Programmiersprache, die Screens werden in HTML ge
 
 
 ## Das hört sich schon mal gut an - wie geht es weiter?
--> Abschnitt erscheint in den nächsten Tagen.
+Welches Thema Du wählen möchtest, musst Du erst zu Beginn des Hackathons entscheiden. Vielleicht informierst Du Dich schon mal bei den [anderen Themen](https://github.com/PIT-Hackathon/2017-Infos), ob noch eine Alternative für Dich dabei ist.
 
 ## Kann ich mich schon irgendwie vorbereiten?
+Eine Vorbereitung ist nicht notwendig, erlaubt Dir aber natürlich an dem Wochenende tiefer ins Thema einzusteigen. Falls Du also schonmal ins Thema reinschnuppern möchtest, findest Du hier ein paar Links.
+
+### Tools
+Folgende Tools werden wir für die Entwicklung verwenden
+
+#### Visual Studio Code
+Welchen Editor man für die Entwicklung nutzt, ist fast egal. Falls Du nicht auf einen bestimmten Editor festgelegt bist, lohnt sich auf jeden Fall ein Blick auf VS Code. Viele sind erstmal von "Visual Studio" irritiert und denken an die riesige Entwicklungsumgebung von Microsoft - aber VS Code heisst nur aus Marketing-Gründen wie der große Bruder, hat mit ihm aber eigentlich nichts zu tun. Dieser Text wurde übrigends mit VS Code geschrieben ;)
+https://code.visualstudio.com/
+
+#### Node.js
+Node.js ist eine JavaScript-Laufzeitumgebung und ermöglicht das Ausführen von JavaScript außerhalb des Browsers möglich macht. Node.js bringt mit npm einen Paket-Manager mit, der den Zugriff auf das größte Ökosystem für Open Source Bibliotheken der Welt ermöglicht.
+- https://nodejs.org/de/
+
+### Tutorials und Kurse
 -> Abschnitt erscheint in den nächsten Tagen.
