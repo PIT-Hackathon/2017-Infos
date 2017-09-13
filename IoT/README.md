@@ -1,8 +1,8 @@
 # IoT - Internet of Things
 
-## Was ist App-Entwicklung?
+## Was ist IoT?
 
-## Was muss ich können/mitbringen, um eine App beim Hackathon zu entwickeln?
+## Was muss ich können/mitbringen, um eine IoT Anwendung beim Hackathon zu entwickeln?
 
 ## Das hört sich schon mal gut an - wie geht es weiter?
 
