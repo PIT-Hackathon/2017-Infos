@@ -82,13 +82,29 @@ einen bestimmten Editor festgelegt bist, lohnt sich auf jeden Fall ein Blick auf
 VS Code. Viele sind erstmal von "Visual Studio" irritiert und denken an die
 riesige Entwicklungsumgebung von Microsoft - aber VS Code heisst nur aus
 Marketing-Gründen wie der große Bruder, hat mit ihm aber eigentlich nichts zu
-tun. Dieser Text wurde übrigends mit VS Code geschrieben ;)
-
+tun. Dieser Text wurde übrigends mit VS Code und Spacemacs geschrieben ;)
 https://code.visualstudio.com/
 
+
 ### Python-Interpreter (Programmiersprache, Ausführumgebung)
-[Text zu Python]
-[URL]
+Python ist eine interpretierte Programmiersprache, die einen Interpreter für die
+Ausführung benötigt. Unter Linux ist der entsprechende Interpreter in der
+Paketverwaltung zu finden für Windows kann man den Interpreter hier herunterladen:
+
+https://www.python.org/downloads/ 
+Für den Hackathon sollte der Interpreter in Version 3.x verwendet werden.
+
+
+Die Sprache und die Standard-Bibliothek ist hier dokumentiert:
+https://docs.python.org/3/
+Das offizielle Tutorial findet ihr hier:
+https://docs.python.org/3/tutorial/
+Aber es gibt auch viele weitere Tutorials im Netz, zum Beispiel:
+https://www.learnpython.org/
+
+Um mit Visual Studio Code Python zu entwickeln empfielt es sich die Python
+Extension zu installieren: https://marketplace.visualstudio.com/items?itemName=donjayamanne.python
+
 
 ### GIT-Client (Versionsverwaltung)
 GIT ist eine weit verbreitete Quellcode-Versionsverwaltung. Eine
@@ -99,15 +115,16 @@ gerade liest, ist zum Beispiel bei Github abgelegt - wie der Name vermuten
 lässt, ist das ein GIT-basiertes System.
 
 Wir empfehlen, dass du mit deinem Team GIT einsetzt. Ein GIT-Client ist z.B.:
-https://www.sourcetreeapp.com/ oder https://www.gitkraken.com/
+https://www.sourcetreeapp.com/ oder https://www.gitkraken.com/ 
+Linux user finden noch weiter GIT clients in ihrer wohlbekannten Paketverwaltung.
 
 ### GIT, GIT-Bash (Versionsverwaltung, Shell)
 Je nach GIT-Client, braucht man noch die zugrunde liegenden Konsolen-Tools, die
 von dem GIT-Client dann aufgerufen werden. Mit dabei ist unter anderem
 GIT-Bash - diese emuliert die unter Linux bekannte Bash-Textkonsole (shell). Die
 wiederum erlaubt es, erste Schritte mit der WIT-Plattform zu testen.
-Für die Windows-Plattform findet man die hier:
-https://git-for-windows.github.io/
+Linux user finden git in ihrer wohlbekannten Paketverwaltung und für die
+Windows-Plattform findet man die hier: https://git-for-windows.github.io/
 
 ### WIT.ai (Textanalyse-Plattform)
 WIT ist eine Plattform, die uns dabei hilft die eine Texterkennung nach unseren Bedürfnissen zu erstellen und anzupassen. 
@@ -117,22 +134,66 @@ schicken und die schickt uns dann den erkannten Inhalt in einer Form zurück, di
 man gut in Anwendungen verarbeiten kann. Dabei muss der Text nicht genau dem
 entsprechen was wir vorsehen, sondern er muss nur “so ähnlich” sein.
 Beispielsweise folgende Texte...
-  “What is the weather in Paris?”
-  “Give me the current weather in Paris”
-  “Is it sunny or rainy in Paris now?”
-  ... könnten dazu führen dass Folgendes verstanden und zurückgeliefert wird:
-  "intent":[{ "confidence":0.99797362726099 ...{"value":"weather"...]
-  "location":[{ "confidence":0.938 … {"value":"Paris"...]
 
+> “What is the weather in Paris?”
+> “Give me the current weather in Paris”
+> “Is it sunny or rainy in Paris now?”
+
+... könnten dazu führen dass Folgendes verstanden und zurückgeliefert wird:
+
+```javascript
+{
+  "intent": [{ 
+    "confidence": 0.99797362726099 
+  },{
+    "value": "weather"
+  }],
+  "location":[{
+    "confidence": 0.938 
+  },{
+    "value":"Paris" 
+  }]
+}
+```
 WIT ist sich also zu 99% bzw. 93% sicher, dass es darum geht das Wetter für den Ort Paris zu erfahren.
 
 Eine Einführung Tutorials und Beispiele zu WIT findet ihr unter:
 https://wit.ai/docs . Dort könnt ihr euch einen kostenlosen Account erstellen
 und schon Mal etwas rumprobieren. 
 
-
 ### Errbot (Multi-Backend Chatbot)
-[Baustelle Chatbot]
+Der Errbot ist ein in Python geschriebener Chatbot, der sich an verschiedene Chat-Systeme anklemmen lässt
+* Slack
+* Telegram
+* HipChat
+* IRC
+* XMPP
+* Test 
+* Standalone
+
+http://errbot.io/en/latest/index.html
+
+Man kann ihm konkrete Kommandos beibringen mit denen er einem Benutzer gewisse
+Dienste abnehmen soll und darüber hinaus kann man ihm durch eine Integratio mit
+Wit.ai beibringen, in laufende Konversationen hinein zu lauschen um zu diesen
+dann relevante Informationen zu liefern oder als Reaktion Kommandos auszuführen.
+Ausserdem kann man ihm darüber beibrigen, für komplexere Aktionen beim Benutzer
+nach Details zu fragen. Beispiel für eine Lampen-Steuerung:
+
+> User:   Errbot es ist zu hell.
+> Errbot: Aktuell ist die Helligkeit bei 70%. Um wieviel Prozent soll ich dimmen?
+> User:   Um 20% bitte.
+> Errbot: Das Licht wurde von mir um 20% auf 50% gedimmt. Stimmt es so?
+> User:   Immer noch zu hell.
+> Errbot: Um wieviel Prozent soll ich dimmen?
+> User:   Um 10% bitte.
+> Errbot: Das Lich wurde von mit um 10% auf 40% gedimmt. Stimmt es so?
+> User:   Ja.
+> Errbot: Alright.
+
+Die Herausforderung liegt dabei nicht nur in der Integratio mit Wit.ai
+sondern auch darin für einen gegebenen User den Status der Konversation zu
+speichern und nachzuverfolgen.
 
 ### PAHO-MQTT
 Paho-MQTT ist eine Python-Bibliothek für das MQTT-Protokoll. Dieses ist ein
@@ -140,7 +201,6 @@ Protokoll für die Machin-to-Machine Kommunikation und wird im Bereich
 Internet-of-Things eingesetzt.
 
 https://pypi.python.org/pypi/paho-mqtt/1.3.0
-Und so könnt ihr MQTT auch beim Hackathon nutzen um Interaktionen mit dem IoT durchzuführen.
-
-Tutorials und Kurse
+Und so könnt ihr MQTT auch beim Hackathon nutzen um Interaktionen mit dem IoT
+durchzuführen.
 
