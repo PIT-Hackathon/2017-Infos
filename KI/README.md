@@ -3,9 +3,9 @@ Eines der Themen für den PIT-Hackathon 2017 ist die Entwicklung von Chatbots
 unter Einsatz von künstlicher Intelligenz. Auf dieser Seite erfährst Du, was es
 mit dem Thema auf sich hat. Falls das etwas für Dich ist, kannst Du Dich und
 deinen Laptop mit Hilfe der Informationen hier auf den Hackathon vorbereiten -
-das ist allerdings keine Voraussetzung, sondern freiwillig. 
+das ist allerdings keine Voraussetzung, sondern freiwillig.
 
-## Was ist Künstliche Intelligenz? 
+## Was ist Künstliche Intelligenz?
 Die Beantwortung von Wissensfragen, das Erkennen von berühmten Bauwerken auf
 Bildern oder die einfache Spracherkennung in Apps - mittlerweile haben einige
 Anwendungen Einzug in den Alltag gehalten, die auf Künstlicher Intelligenz
@@ -15,8 +15,8 @@ vielleicht sogar die Klausur-Aufgaben.
 
 Künstliche Intelligenz ist ein Gebiet in der Informatik, dass sich mit der
 Automatisierung intelligenten Verhaltens befasst. Oft geht es dabei darum,
-menschliche Intelligenz nachzuahmen
-(https://de.wikipedia.org/wiki/K%C3%BCnstliche_Intelligenz).
+menschliche Intelligenz nachzuahmen.
+(Quelle: [Wikipedia](https://de.wikipedia.org/wiki/Künstliche_Intelligenz))
 
 Bei der Künstlichen Intelligenz gibt es wiederum verschiedene Teilgebiete, eins
 dieser Gebiete ist die Musteranalyse und -erkennung. Hier geht es unter anderem
@@ -48,8 +48,8 @@ Lampe an- und ausschalten kann.
 
 Auf dieser Grundlage könnt ihr dann außerdem das Ganze ausbauen, z.B.
 komplizierte Texte erkennen bzw. Befehle auslösen oder andere KI-Dienste
-anbinden (z.B. Bilderkennung, Spracherkennung, Wikipedia, Wolfram Alpha, …). Was
-ihr macht, liegt letztendlich an euch.
+anbinden (z.B. Bilderkennung, Spracherkennung, Wikipedia, Wolfram Alpha, ...).
+Was ihr macht, liegt letztendlich an euch.
 
 ## Was muss ich können/mitbringen, um mit KI beim Hackathon zu entwickeln?
 Nur deinen Kopf und bestenfalls deinen Laptop! Wenn Du schon ein wenig in Python
@@ -85,26 +85,22 @@ Marketing-Gründen wie der große Bruder, hat mit ihm aber eigentlich nichts zu
 tun. Dieser Text wurde übrigends mit VS Code und Spacemacs geschrieben ;)
 https://code.visualstudio.com/
 
-
 ### Python-Interpreter (Programmiersprache, Ausführumgebung)
 Python ist eine interpretierte Programmiersprache, die einen Interpreter für die
 Ausführung benötigt. Unter Linux ist der entsprechende Interpreter in der
 Paketverwaltung zu finden für Windows kann man den Interpreter hier herunterladen:
-
-https://www.python.org/downloads/ 
-Für den Hackathon sollte der Interpreter in Version 3.x verwendet werden.
-
+[www.python.org/downloads/](https://www.python.org/downloads/)
+(Für den Hackathon sollte der Interpreter in Version 3.x verwendet werden)
 
 Die Sprache und die Standard-Bibliothek ist hier dokumentiert:
-https://docs.python.org/3/
+[docs.python.org/3/](https://docs.python.org/3/)  
 Das offizielle Tutorial findet ihr hier:
-https://docs.python.org/3/tutorial/
+[docs.python.org/3/tutorial/](https://docs.python.org/3/tutorial/)  
 Aber es gibt auch viele weitere Tutorials im Netz, zum Beispiel:
 https://www.learnpython.org/
 
 Um mit Visual Studio Code Python zu entwickeln empfielt es sich die Python
 Extension zu installieren: https://marketplace.visualstudio.com/items?itemName=donjayamanne.python
-
 
 ### GIT-Client (Versionsverwaltung)
 GIT ist eine weit verbreitete Quellcode-Versionsverwaltung. Eine
@@ -114,55 +110,62 @@ Quellcode zu versionieren und damit nachverfolgbar zu machen. Die Datei, die du
 gerade liest, ist zum Beispiel bei Github abgelegt - wie der Name vermuten
 lässt, ist das ein GIT-basiertes System.
 
-Wir empfehlen, dass du mit deinem Team GIT einsetzt. Ein GIT-Client ist z.B.:
-https://www.sourcetreeapp.com/ oder https://www.gitkraken.com/ 
-Linux user finden noch weiter GIT clients in ihrer wohlbekannten Paketverwaltung.
+Wir empfehlen, dass du mit deinem Team GIT einsetzt. GIT-Clients für Windows
+sind z.B. [Sourcetree](https://www.sourcetreeapp.com/) und [GitKraken](https://www.gitkraken.com/).
+Linux-User finden noch weitere GIT-Clients in ihrer wohlbekannten Paketverwaltung.
 
 ### GIT, GIT-Bash (Versionsverwaltung, Shell)
 Je nach GIT-Client, braucht man noch die zugrunde liegenden Konsolen-Tools, die
 von dem GIT-Client dann aufgerufen werden. Mit dabei ist unter anderem
-GIT-Bash - diese emuliert die unter Linux bekannte Bash-Textkonsole (shell). Die
+GIT-Bash - diese emuliert die unter Linux bekannte Bash-Textkonsole (Shell). Die
 wiederum erlaubt es, erste Schritte mit der WIT-Plattform zu testen.
-Linux user finden git in ihrer wohlbekannten Paketverwaltung und für die
-Windows-Plattform findet man die hier: https://git-for-windows.github.io/
+
+Linux-User finden Git in ihrer wohlbekannten Paketverwaltung und für die
+Windows-Plattform findet man es hier: [Git-for-Windows](https://git-for-windows.github.io/)
 
 ### WIT.ai (Textanalyse-Plattform)
-WIT ist eine Plattform, die uns dabei hilft die eine Texterkennung nach unseren Bedürfnissen zu erstellen und anzupassen. 
+[WIT](https://wit.ai) ist eine Plattform, die uns dabei hilft die eine Texterkennung nach unseren Bedürfnissen zu erstellen und anzupassen.
 
 Danach können wir aus unserer Anwendung heraus einen Text an die WIT-Plattform
 schicken und die schickt uns dann den erkannten Inhalt in einer Form zurück, die
 man gut in Anwendungen verarbeiten kann. Dabei muss der Text nicht genau dem
 entsprechen was wir vorsehen, sondern er muss nur “so ähnlich” sein.
-Beispielsweise folgende Texte...
+Beispielsweise folgende Texte:
 
-> “What is the weather in Paris?”
-> “Give me the current weather in Paris”
-> “Is it sunny or rainy in Paris now?”
+> * “What is the weather in Paris?”
+> * “Give me the current weather in Paris”
+> * “Is it sunny or rainy in Paris now?”
 
 ... könnten dazu führen dass Folgendes verstanden und zurückgeliefert wird:
-
-```javascript
+```JSON
 {
-  "intent": [{ 
-    "confidence": 0.99797362726099 
-  },{
-    "value": "weather"
-  }],
-  "location":[{
-    "confidence": 0.938 
-  },{
-    "value":"Paris" 
-  }]
+    "msg_id": ...,
+    "_text": ...,
+    "entities": {
+        "intent": [{
+            "confidence": 0.99797362726099,
+            "value": "weather"
+        }, {
+            ...
+        }],
+        "location": [{
+            "confidence": 0.938,
+            "value": "Paris"
+        }, {
+            ...
+        }]
+    }
 }
 ```
 WIT ist sich also zu 99% bzw. 93% sicher, dass es darum geht das Wetter für den Ort Paris zu erfahren.
 
 Eine Einführung Tutorials und Beispiele zu WIT findet ihr unter:
-https://wit.ai/docs . Dort könnt ihr euch einen kostenlosen Account erstellen
-und schon Mal etwas rumprobieren. 
+[wit.ai/docs](https://wit.ai/docs). Dort könnt ihr euch einen kostenlosen Account
+erstellen und schon Mal etwas rumprobieren.
 
-### Errbot (Multi-Backend Chatbot)
-Der Errbot ist ein in Python geschriebener Chatbot, der sich an verschiedene Chat-Systeme anklemmen lässt
+### ErrBot (Multi-Backend Chatbot)
+Der [Errbot](http://errbot.io) ist ein in Python geschriebener Chatbot, der sich
+an verschiedene Chat-Systeme anklemmen lässt:
 * Slack
 * Telegram
 * HipChat
@@ -171,8 +174,6 @@ Der Errbot ist ein in Python geschriebener Chatbot, der sich an verschiedene Cha
 * Test 
 * Standalone
 
-http://errbot.io/en/latest/index.html
-
 Man kann ihm konkrete Kommandos beibringen mit denen er einem Benutzer gewisse
 Dienste abnehmen soll und darüber hinaus kann man ihm durch eine Integratio mit
 Wit.ai beibringen, in laufende Konversationen hinein zu lauschen um zu diesen
@@ -180,18 +181,18 @@ dann relevante Informationen zu liefern oder als Reaktion Kommandos auszuführen
 Ausserdem kann man ihm darüber beibrigen, für komplexere Aktionen beim Benutzer
 nach Details zu fragen. Beispiel für eine Lampen-Steuerung:
 
-> User:   Errbot es ist zu hell.
-> Errbot: Aktuell ist die Helligkeit bei 70%. Um wieviel Prozent soll ich dimmen?
-> User:   Um 20% bitte.
-> Errbot: Das Licht wurde von mir um 20% auf 50% gedimmt. Stimmt es so?
-> User:   Immer noch zu hell.
-> Errbot: Um wieviel Prozent soll ich dimmen?
-> User:   Um 10% bitte.
-> Errbot: Das Lich wurde von mit um 10% auf 40% gedimmt. Stimmt es so?
-> User:   Ja.
-> Errbot: Alright.
+> * User:   Errbot es ist zu hell.
+> * Errbot: Aktuell ist die Helligkeit bei 70%. Um wieviel Prozent soll ich dimmen?
+> * User:   Um 20% bitte.
+> * Errbot: Das Licht wurde von mir um 20% auf 50% gedimmt. Stimmt es so?
+> * User:   Immer noch zu hell.
+> * Errbot: Um wieviel Prozent soll ich dimmen?
+> * User:   Um 10% bitte.
+> * Errbot: Das Lich wurde von mit um 10% auf 40% gedimmt. Stimmt es so?
+> * User:   Ja.
+> * Errbot: Alright.
 
-Die Herausforderung liegt dabei nicht nur in der Integratio mit Wit.ai
+Die Herausforderung liegt dabei nicht nur in der Integration mit Wit.ai
 sondern auch darin für einen gegebenen User den Status der Konversation zu
 speichern und nachzuverfolgen.
 
