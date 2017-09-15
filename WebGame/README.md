@@ -2,7 +2,7 @@
 Das Thema "Web" Game beim [PIT-Hackathon 2017](https://github.com/PIT-Hackathon/2017-Infos) umfasst die erste Phase der Spieleentwicklung, von der Erstellung eines Konzepts bis zum lauffähigen Prototypen. Dabei werdet ihr diverse Rolle wie Game Designer, Developer, Visual Artist, Sound Artist uvm. einnehmen und zusammen im Team euer Spiel entwickeln. 
 
 ## Was ist ein Web Game?
-Ein Web Game ist ein im Browser lauffähiges Spiel und kann ohne Installation auf diversen Geräten (PC, Handy, usw.) gespielt werden. Bei bedarf lässt sich das Spiel auch in eine Desktop Applikation [verpacken](https://electron.atom.io). Troz Browser können die Spiele auf die besonderheiten der Endgeräte reagieren und so z.B. den Neigungssensor im Handy als Lenkrad in das Spiel integrieren.
+Ein Web Game ist ein im Browser lauffähiges Spiel und kann ohne Installation auf diversen Geräten (PC, Handy, usw.) gespielt werden. Bei Bedarf lässt sich das Spiel auch in eine Desktop Applikation [verpacken](https://electron.atom.io). Trotz Browser können die Spiele auf die Besonderheiten der Endgeräte reagieren und so z.B. den Neigungssensor im Handy als Lenkrad in das Spiel integrieren.
 
 ## Gibt es ein Game Engine die ich verwenden kann?
 Es gibt [diverse Game Engines](https://github.com/showcases/javascript-game-engines) mit der ihr euer Web Game erstellen könnt. Um euch die Auswahl zu erleichtern haben wir  drei Engines ausgewählt und entsprechende Vorlagen vorbereitet.
@@ -43,15 +43,15 @@ Ja, du kannst jede andere Sprache oder Tool verwenden. Wir Mentoren haben uns je
 Wenn du unsere Vorlagen verwendest, dann benötigst du nur folgende Tools für die Entwicklung. Diese könnt ihr vorab auf eueren Geräten installieren oder wir machen das zu Beginn des Hackathons.
 
 ### 1. Code Editor 
-Ihr benötigt einen Text Editor um den Source Code shreiben zu können. Am besten einen mit Syntax Highlight, Code vervollständigung und Validierung. Unser Vorschlag: Visual Studio Code [https://code.visualstudio.com](https://code.visualstudio.com)
+Ihr benötigt einen Text Editor um den Source Code schreiben zu können. Am besten einen mit Syntax Highlight, Code Vervollständigung und Validierung. Unser Vorschlag: Visual Studio Code [https://code.visualstudio.com](https://code.visualstudio.com)
 
 ### 2. Node.js und NPM
-Node.js werden wir zum "kompilieren" oder besser [transpilieren](https://en.wikipedia.org/wiki/Source-to-source_compiler) des Source Codes verwenden. Dabei kommte Tools wie [Babel](https://babeljs.io) oder [Typescript](https://www.typescriptlang.org) zum einsatz. Diese Tools und auch die notwendigen Bibliotheken für unsere Projekt finden wir in der [NPM Registry](https://www.npmjs.com).
+Node.js werden wir zum "kompilieren" oder besser [transpilieren](https://en.wikipedia.org/wiki/Source-to-source_compiler) des Source Codes verwenden. Dabei kommen Tools wie [Babel](https://babeljs.io) oder [Typescript](https://www.typescriptlang.org) zum Einsatz. Diese Tools und auch die notwendigen Bibliotheken für euer Projekt findet ihr in der [NPM Registry](https://www.npmjs.com).
 
 Download: [https://nodejs.org](https://nodejs.org)
 
 ### 3. Webpack [Optional/Intern]
-Webpack ist ein Module-Bundler und gleichzeitig Build-System. Das heist es fasst mehrere Module (z.B. NPM Pakete) in zusammen und das Build-System konvertiert die Module in ein für den Browser verständliches Format. Dazu gibt es noch einen passenden Server mit dem Ihr euer Spiel lokal hosten könnt. Webpack überwacht dabei den gesammten Quellcode und erstelle automatisch eine neue Version sobald eine Änderung festgestellt wurde. 
+Webpack ist ein Module-Bundler und gleichzeitig Build-System. Das heißt es fasst mehrere Module (z.B. NPM Pakete) in zusammen und das Build-System konvertiert die Module in ein für den Browser verständliches Format. Dazu gibt es noch einen passenden Server mit dem Ihr euer Spiel lokal hosten könnt. Webpack überwacht dabei den gesamten Quellcode und erstelle automatisch eine neue Version sobald eine Änderung festgestellt wurde. 
 
 Weiter Infos findet ihr im Git Repository: [https://github.com/webpack/webpack](https://github.com/webpack/webpack)
 
