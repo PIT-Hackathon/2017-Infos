@@ -13,7 +13,7 @@ Welches Thema Du wählen möchtest, musst Du erst zu Beginn des Hackathons entsche
 ## Kann ich mich schon irgendwie vorbereiten?
 Eine Vorbereitung ist nicht notwendig, erlaubt Dir aber natürlich an dem Wochenende tiefer ins Thema einzusteigen. Falls Du also schonmal ins Thema reinschnuppern möchtest, findest Du hier ein paar Links. Schaue Dir doch mal ein paar Tutorials an, vielleicht hast Du ja schon eine gute Idee, die Du während des Hackathons kurz vorstellen und dann gemeinsam in der Gruppe umsetzen möchtest.
 
-### Hardware
+### Hardware / Software
 Für den Hackathon haben wir eine Auswahl an Hardware zusammengestellt, mit der wir im Bereich Internet of Things arbeiten wollen.
 
 #### Raspberry Pi
@@ -29,11 +29,22 @@ Die NodeMCU Hardware ist eine Mikrocontroller-Plattform ähnlich zum Arduino. Da 
 #### Sensoren
 
 
+#### MQTT - MQ Telemetry Transport oder Message Queue Telemetry Transport
+MQTT ist ein Nachrichtenprotokoll für die sogenannte M2M (Machine to Machine) Kommunikation. Es ist relativ leichtgewichtig, wird sowohl vom Raspberry Pi als auch von den NodeMCU Mikrocontrollern unterstützt, hat sich im Bereich IoT einen festen Platz ergattert und soll damit als Grundlage für die Kommunikation während des Hackathons dienen.
+Die Kommunikation mit dem Server (im MQTT Umfeld auch Broker genannt) erfolgt von Seiten der Clients über Topics, auf die sie lesen oder schreiben können. Topics können dabei hierarchisch angelegt werden. Ein Beispiel wäre eine Wetterstation, die in das Topic "/wetter/paderborn/temperatur" jeweils die aktuelle Temperatur hineinschreibt. Ein weiterer Client könnte dann dieses Topic lauschen und wird vom Broker benachrichtigt, wenn es neu geschrieben wird.
+
+- [Einführung in MQTT](https://www.predic8.de/mqtt.htm)
+
 ### Tools
 Folgende Tools werden wir für die Entwicklung verwenden. Solltest Du Deinen eigenen Rechner zum Entwickeln mitbringen, kannst Du Dir zur Vorbereitung die Tools bereits installieren und sie Dir schonmal etwas genauer anschauen.
 
 #### Arduino IDE
 Um für die eingesetzten Mikrocontroller Programme zu entwickeln, benötigen wir die Arduino IDE. Sie kann von der Webseite [Arduino.cc](http://www.arduino.cc) heruntergeladen werden. Da wir allerdings nicht direkt für die Arduino Plattform Programme entwickeln, sondern für die NodeMCU Plattform, muss die Arduino IDE noch für dieses Board eingerichtet werden. Wenn Du dem Link in dem [NodeMCU Abschnitt](#nodemcu--esp8266) folgst, findest Du in der NodeMCU Einführung unter "Schritt 2 – Die Arduino IDE installieren und konfigurieren" eine Anleitung, wie man das NodeMCU Board einbindet.
+
+#### MQTT.fx
+Um während des Hackathons einfacher auf einen MQTT Server, der z.B. auf einem Raspberry Pi laufen kann, zugreifen zu können oder selbst Nachrichten über einen MQTT Server zu versenden, kann ein MQTT Client verwendet werden. Ein guter Client, der frei verfügbar ist, ist MQTT.fx. Du kannst ihn unter folgendem Link erreichen
+
+- http://www.mqttfx.org/
 
 ##### Bibliotheken
 
