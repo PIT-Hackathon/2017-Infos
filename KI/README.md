@@ -197,11 +197,23 @@ sondern auch darin für einen gegebenen User den Status der Konversation zu
 speichern und nachzuverfolgen.
 
 ### PAHO-MQTT
-Paho-MQTT ist eine Python-Bibliothek für das MQTT-Protokoll. Dieses ist ein
-Protokoll für die Machin-to-Machine Kommunikation und wird im Bereich
-Internet-of-Things eingesetzt.
+[Paho-MQTT](https://pypi.python.org/pypi/paho-mqtt/1.3.0) ist eine Python-Bibliothek
+für das MQTT-Protokoll.
 
-https://pypi.python.org/pypi/paho-mqtt/1.3.0
-Und so könnt ihr MQTT auch beim Hackathon nutzen um Interaktionen mit dem IoT
-durchzuführen.
+MQTT ist ein Client-Server-Protokoll (der Server wird auch "Broker" genannt)
+für die Machine-to-Machine-Kommunikation (M2M) und wird im Bereich
+Internet-of-Things eingesetzt. Eine MQTT Nachricht besteht aus einem Header,
+dem Topic (das Thema, auf das sich die Nachricht bezieht) und der Payload (die
+eigentliche Information).
+(Siehe auch: [Wikipedia](https://de.wikipedia.org/wiki/MQTT))
 
+Die von uns bereitgestellte "Lampe" unterstützt folgende Befehle:
+
+| Befehl             | Topic              | Payload |
+|--------------------|--------------------|---------|
+| Lampe einschalten  | /ki/lamp1/cmd/set  | on      |
+| Lampe ausschalten  | /ki/lamp1/cmd/set  | off     |
+| Status abfragen    | /ki/lamp1/cmd/get  | state   |
+
+Als Antwort auf die Befehle sendet die Lampe jeweils über das Topic
+`/ki/lamp1/state` den aktuelle Status (`on` oder `off`).
