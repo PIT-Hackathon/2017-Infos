@@ -1,0 +1,7 @@
+License information about the used images
+=========================================
+
+RaspberryPi.jpg:
+	image by Florian Kasimir
+	licensed under CC BY-SA 2.0
+	https://flic.kr/p/G3UuxS
