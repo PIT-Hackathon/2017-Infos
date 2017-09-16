@@ -4,8 +4,8 @@ Eines der Themen für den [PIT-Hackathon 2017](https://github.com/PIT-Hackathon/2
 ## Was ist IoT?
 Der Begriff IoT steht für Internet of Things bzw. das Internet der Dinge. Grob gesagt, wird versucht, die analoge Welt um uns herum digital greifbar zu machen um mit diesen Daten neue Informationen zu gewinnen und sie weiterzuverarbeiten. Sei es ein einfacher Schalter oder ein Bewegungssensor, die Wetterstation oder das Hamsterrad - alles kann Daten liefern und ins Netz gestellt werden. Genauso können die vernetzen Geräte auf diese Daten zugreifen und selbst wieder auf andere Daten reagieren.
 
-## Was muss ich können/mitbringen, um eine IoT AnwenDung beim Hackathon zu entwickeln?
-Spaß am Basteln und gute Ideen. Evtl. kennst Du bereits den Arduino, den Raspberry Pi oder ein NodeMCU und hast schonmal damit gearbeitet oder Du kennst dich etwas mit Elektronik aus.
+## Was muss ich können/mitbringen, um eine IoT Anwendung beim Hackathon zu entwickeln?
+Spaß am Basteln und gute Ideen. Evtl. kennst Du bereits den Arduino, den Raspberry Pi oder ein NodeMCU und hast schonmal damit gearbeitet oder Du kennst Dich etwas mit Elektronik aus.
 
 ## Das hört sich schon mal gut an - wie geht es weiter?
 Welches Thema Du wählen möchtest, musst Du erst zu Beginn des Hackathons entscheiden. Vielleicht informierst Du Dich schon mal bei den [anderen Themen](https://github.com/PIT-Hackathon/2017-Infos), ob noch eine Alternative für Dich dabei ist.
