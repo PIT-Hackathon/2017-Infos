@@ -21,7 +21,7 @@ Einst als kleiner und günstiger Computer für Schulen und die Lehre entwickelt, h
 
 - https://tutorials-raspberrypi.de/
 
-!{Raspberry Pi 3](images/RaspberryPi.jpg)
+![Raspberry Pi 3](images/RaspberryPi.jpg)
 
 #### NodeMCU / ESP8266
 Die NodeMCU Hardware ist eine Mikrocontroller-Plattform ähnlich zum Arduino. Da sie sehr günstig ist und zudem auch WLAN mitbringt, ist sie bestens geeignet um Sensorknoten für unser IoT-System zu entwickeln. Im Gegensatz zum Raspberry Pi ist sie natürlich nicht so leistungsfähig, dennoch reicht die Geschwindigkeit zum Erfassen und Senden von Sensordaten aus.
