@@ -30,51 +30,43 @@ dann neue, unbekannte Beispiele korrekt erkannt werden. Das wollen wir beim
 Hackathon ausprobieren.
 
 ## Was wollen wir machen?
-Prinzipiell sollen die Teilnehmer gemeinsam herausfinden und entscheiden, was
-die Gruppe entwickelt. Um den Einstieg in das Thema zu vereinfachen, werden wir
-aber ein paar Dinge vorbereiten.
+Generell sollt ihr als Teilnehmer gemeinsam in der Gruppe überlegen, was ihr
+während des Hackathons entwickeln möchtet. Um euch die Projektfindung etwas zu
+vereinfachen, haben wir einen beispielhaften Grundaufbau vorbereitet:
 
-Wir haben uns als Grundlage für das Thema Künstliche Intelligenz und den
-Hackathon Folgendes Gartenszenario überlegt:
+Die Basis bildet ein Chatbot, der mit einem Instant-Massager verbunden ist (hier
+bietet sich z.B. Slack an, da ihr das für den Hackathon bereits nutzt). Mit
+diesem könnt ihr dann Nachrichten austauschen. Damit nun der Bot die Nachrichten
+der Nutzer verstehen und damit etwas Sinnvolles anfangen kann, bietet sich die
+Integration einer Texterkennungsplattform an. Anhand der Auswertung kann dann
+der Bot über eine Integration in die IoT-Welt eine Lampe an- und ausschalten
+oder weitere Aktionen ausführen.
 
-Wir werden einen Chatbot (errbot) vorbereiten, der in Slack integriert ist.
-Damit kann der Chatbot Nachrichten an den Slack-Channel senden und diese
-empfangen. Damit wir die Nachrichten der Nutzer verstehen und damit etwas
-Sinnvolles anfangen, bieten wir eine Integration in eine Texterkennungsplattform
-(WIT.ai) an. Außerdem, bieten wir eine einfache Integration in die IoT-Welt,
-damit von dem Chatbot aus eine Lampe an- und ausgeschaltet werden kann. Das
-müsst ihr dann aber noch alles zusammenbauen, damit man von dem Chat aus die
-Lampe an- und ausschalten kann.
-
-Auf dieser Grundlage könnt ihr dann außerdem das Ganze ausbauen, z.B.
+Auf dieser Grundlage könnt ihr das Ganze noch beliebig ausbauen, z.B.
 komplizierte Texte erkennen bzw. Befehle auslösen oder andere KI-Dienste
 anbinden (z.B. Bilderkennung, Spracherkennung, Wikipedia, Wolfram Alpha, ...).
 Was ihr macht, liegt letztendlich an euch.
 
 ## Was muss ich können/mitbringen, um mit KI beim Hackathon zu entwickeln?
-Nur deinen Kopf und bestenfalls deinen Laptop! Wenn Du schon ein wenig in Python
-programmieren kannst umso besser.
-
-Es ist zwar von Vorteil, wenn du dich schon Mal mit der Programmiersprache
-Python oder sogar den hier vorgestellten Tools auseinander gesetzt hast - eine
-Voraussetzung ist das allerdings nicht!
+Nur deinen Kopf und bestenfalls deinen Laptop!
+Falls du in der Vergangenheit schon die ein oder andere Zeile in der
+Programmiersprache Python geschrieben hast, ist das vorteilhaft, aber eine
+Voraussetzung ist es nicht.
 
 Die meiste “Magie” wird über normale Programmierschnittstellen (also
 Funktions-/Methodenaufrufe) geregelt. Außerdem gibt es noch eine zugängliche
 Benutzeroberfläche für das Trainieren der Texterkennung mit WIT.
 
-## Das hört sich schon mal gut an - wie geht es weiter?
-Welches Thema Du wählen möchtest, musst Du erst zu Beginn des Hackathons
-entscheiden. Vielleicht informierst Du Dich schon mal bei den anderen Themen, ob
-noch eine Alternative für Dich dabei ist.
+Solltest du Probleme oder Fragen haben, helfen dir die Mentoren und auch deine
+Gruppen-Mitglieder gerne weiter.
 
 ## Kann ich mich schon irgendwie vorbereiten?
-Eine Vorbereitung ist nicht notwendig, erlaubt Dir aber natürlich an dem
-Wochenende tiefer ins Thema einzusteigen. Falls Du also schonmal ins Thema
-reinschnuppern möchtest, findest Du hier ein paar Links.
+Eine Vorbereitung ist nicht notwendig. Es schadet aber natürlich nicht, wenn
+du schon einmal einen Blick in die Dokumentation der unten aufgeführten Tools
+wirfst oder dich sogar schon bei der Texterkennungs-Plattform WIT anmeldest.
 
 ## Tools
-Folgende Tools werden wir für die Entwicklung verwenden
+Folgende Tools schlagen wir dir für die Entwicklung vor.
 
 ### Visual Studio Code (Entwicklungsumgebung)
 Welchen Editor man für die Entwicklung nutzt, ist fast egal. Falls Du nicht auf
@@ -103,12 +95,11 @@ Um mit Visual Studio Code Python zu entwickeln empfielt es sich die Python
 Extension zu installieren: https://marketplace.visualstudio.com/items?itemName=donjayamanne.python
 
 ### GIT-Client (Versionsverwaltung)
-GIT ist eine weit verbreitete Quellcode-Versionsverwaltung. Eine
-Quellcode-Versionsverwaltung hilft dabei den Quellcode einfach im Team
-auszutauschen und zu integrieren. Außerdem hilft sie dabei Änderungen am
-Quellcode zu versionieren und damit nachverfolgbar zu machen. Die Datei, die du
-gerade liest, ist zum Beispiel bei Github abgelegt - wie der Name vermuten
-lässt, ist das ein GIT-basiertes System.
+GIT ist eine weitverbreitete Quellcode-Versionsverwaltung. Diese unterstützt
+dich dabei, den Quellcode einfach im Team auszutauschen. Außerdem hilft sie
+dir, Änderungen am Quellcode zu versionieren und damit nachverfolgbar zu
+machen. Die Datei, die du gerade liest, ist zum Beispiel bei Github abgelegt -
+wie der Name vermuten lässt, ist das ein GIT-basiertes System.
 
 Wir empfehlen, dass du mit deinem Team GIT einsetzt. GIT-Clients für Windows
 sind z.B. [Sourcetree](https://www.sourcetreeapp.com/) und [GitKraken](https://www.gitkraken.com/).
@@ -124,11 +115,12 @@ Linux-User finden Git in ihrer wohlbekannten Paketverwaltung und für die
 Windows-Plattform findet man es hier: [Git-for-Windows](https://git-for-windows.github.io/)
 
 ### WIT.ai (Textanalyse-Plattform)
-[WIT](https://wit.ai) ist eine Plattform, die uns dabei hilft die eine Texterkennung nach unseren Bedürfnissen zu erstellen und anzupassen.
+[WIT](https://wit.ai) ist eine Plattform, die euch dabei hilft eine Texterkennung
+nach euren Bedürfnissen und Anforderungen zu erstellen und anzupassen.
 
-Danach können wir aus unserer Anwendung heraus einen Text an die WIT-Plattform
-schicken und die schickt uns dann den erkannten Inhalt in einer Form zurück, die
-man gut in Anwendungen verarbeiten kann. Dabei muss der Text nicht genau dem
+Danach könnt ihr aus eurer Anwendung heraus einen Text an die WIT-Plattform
+schicken und die schickt dann den erkannten Inhalt in einer Form zurück, die
+man gut in Anwendungen weiterverarbeiten kann. Dabei muss der Text nicht genau dem
 entsprechen was wir vorsehen, sondern er muss nur “so ähnlich” sein.
 Beispielsweise folgende Texte:
 
