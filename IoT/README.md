@@ -31,7 +31,16 @@ Die NodeMCU Hardware ist eine Mikrocontroller-Plattform ähnlich zum Arduino. Da 
 ![NodeMCU ESP8266 Mikrocontroller](images/NodeMCU.png)
 
 #### Sensoren
+Damit Du Deine IoT Idee umsetzen kannst, haben wir versucht, eine Auwahl an Sensoren und Aktoren zu treffen, die Dir und den anderen Gruppen während des Hackathons zur Verfügung stehen. Schau Dir doch mal die Liste an, vielleicht hast Du ja eine gute Idee, was für ein Projekt man mit den Bauteilen umsetzen könnte. Die genauen Bezeichnungen der Module können Dir helfen, mehr Informationen zu den einzelnen Komponenten zu finden.
 
+ - NFC Module (RC522 RFID-Modul) und passende NFC Tags zur kontaktlosen Kommunikation
+ - TFT Displays (240x320, ILI9341 kompatibel)
+ - Adafruit NeoPixel Stick
+ - Temperatur- / Luftfeuchtigkeitssensoren (DHT22)
+ - Gyroskop (Lagesensor, der Bewegungen in unterschiedliche Richtungen erkennen kann - ITG3205)
+ - 433MHz Sender zum Steuern von Funksteckdosen
+ - [37teiliges Arduino Sensorpaket (Wiki von Tkkrlab.nl)](https://tkkrlab.nl/wiki/Arduino_37_sensors)
+ - ...
 
 #### MQTT - MQ Telemetry Transport oder Message Queue Telemetry Transport
 MQTT ist ein Nachrichtenprotokoll für die sogenannte M2M (Machine to Machine) Kommunikation. Es ist relativ leichtgewichtig, wird sowohl vom Raspberry Pi als auch von den NodeMCU Mikrocontrollern unterstützt, hat sich im Bereich IoT einen festen Platz ergattert und soll damit als Grundlage für die Kommunikation während des Hackathons dienen.
