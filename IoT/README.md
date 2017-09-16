@@ -28,6 +28,8 @@ Die NodeMCU Hardware ist eine Mikrocontroller-Plattform ähnlich zum Arduino. Da 
 
 - http://www.mikrocontroller-elektronik.de/nodemcu-esp8266-tutorial-wlan-board-arduino-ide/
 
+![NodeMCU ESP8266 Mikrocontroller](images/NodeMCU.png)
+
 #### Sensoren
 
 
