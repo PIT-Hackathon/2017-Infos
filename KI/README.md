@@ -167,7 +167,7 @@ an verschiedene Chat-Systeme anklemmen lässt:
 * Standalone
 
 Man kann ihm konkrete Kommandos beibringen mit denen er einem Benutzer gewisse
-Dienste abnehmen soll und darüber hinaus kann man ihm durch eine Integratio mit
+Dienste abnehmen soll und darüber hinaus kann man ihm durch eine Integration mit
 Wit.ai beibringen, in laufende Konversationen hinein zu lauschen um zu diesen
 dann relevante Informationen zu liefern oder als Reaktion Kommandos auszuführen.
 Ausserdem kann man ihm darüber beibrigen, für komplexere Aktionen beim Benutzer
