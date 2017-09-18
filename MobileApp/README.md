@@ -34,6 +34,6 @@ Node.js ist eine JavaScript-Laufzeitumgebung und ermöglicht das Ausführen von 
 
 ### Tutorials und Kurse
 - [Einleitung von Ionic selbst](https://ionicframework.com/getting-started/ )
-- [Englisches Video zum Einstieg in Ionic von Joshua Morony](https://www.youtube.com/watch?v=TPtv3Sj87KE) Hinweis: Version 2 und Version 3 haben nur minimal Änderungen
-- [Deutsches Video zum Einstieg in Ionic von Daniel Ehrhardt](https://www.youtube.com/watch?v=gplRGpkOlUY)
+- [Englisches Video zum Einstieg in Ionic 2 von Joshua Morony](https://www.youtube.com/watch?v=TPtv3Sj87KE) Hinweis: Version 2 und Version 3 haben nur minimal Änderungen
+- [Deutsches Video zum Einstieg in Ionic 3 von Daniel Ehrhardt](https://www.youtube.com/watch?v=gplRGpkOlUY)
 - mehr in den nächsten Tagen...
