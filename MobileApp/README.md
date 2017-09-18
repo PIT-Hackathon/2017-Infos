@@ -32,6 +32,10 @@ Welchen Editor man für die Entwicklung nutzt, ist fast egal. Falls Du nicht auf
 Node.js ist eine JavaScript-Laufzeitumgebung und ermöglicht das Ausführen von JavaScript außerhalb des Browsers möglich macht. Node.js bringt mit npm einen Paket-Manager mit, der den Zugriff auf das größte Ökosystem für Open Source Bibliotheken der Welt ermöglicht.
 - https://nodejs.org/de/
 
+#### Ionic 3
+Ionic ist das eigentliche Framework, das wir für die App-Entwicklung nutzen. Jedoch kann man Ionic **nicht direkt installieren** wie die anderen Programme hier in der Liste. Stattdessen wird es über den Node PackageManager (npm) installiert. Eine Anleitung (inkl. Cordova) findest Du unter:
+- http://ionicframework.com/getting-started/
+
 ### Tutorials und Kurse
 - [Einleitung von Ionic selbst](https://ionicframework.com/getting-started/ )
 - [Englisches Video zum Einstieg in Ionic 2 von Joshua Morony](https://www.youtube.com/watch?v=TPtv3Sj87KE) Hinweis: Version 2 und Version 3 haben nur minimal Änderungen
