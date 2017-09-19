@@ -49,7 +49,7 @@ Babylon.js ist eine Open Source 3D Game Engine. Die Engine wurde komplett in Typ
 Weiter Infos: [https://www.babylonjs.com](https://www.babylonjs.com)
 
 Vorlagen auf GitHub:
-- Javascript [under development]
+- Javascript [https://github.com/PIT-Hackathon/2017-WebGame-Babylon-ES2017](https://github.com/PIT-Hackathon/2017-WebGame-Babylon-ES2017)
 - Typescript [under development]
 
 ### Three.js
