@@ -1,8 +1,35 @@
 # Web Game
-Das Thema "Web" Game beim [PIT-Hackathon 2017](https://github.com/PIT-Hackathon/2017-Infos) umfasst die erste Phase der Spieleentwicklung, von der Erstellung eines Konzepts bis zum lauffähigen Prototypen. Dabei werdet ihr diverse Rolle wie Game Designer, Developer, Visual Artist, Sound Artist uvm. einnehmen und zusammen im Team euer Spiel entwickeln. 
+Das Thema "Web" Game beim [PIT-Hackathon 2017](https://github.com/PIT-Hackathon/2017-Infos) umfasst die erste Phase der Spieleentwicklung, von der Erstellung eines Konzepts bis zum lauffähigen Prototypen. Dabei werdet ihr diverse Rolle wie Game Designer, Game Developer, Visual Artist, Audio Engineer uvm. einnehmen und zusammen im Team euer Spiel entwickeln. 
 
 ## Was ist ein Web Game?
 Ein Web Game ist ein im Browser lauffähiges Spiel und kann ohne Installation auf diversen Geräten (PC, Handy, usw.) gespielt werden. Bei Bedarf lässt sich das Spiel auch in eine Desktop Applikation [verpacken](https://electron.atom.io). Trotz Browser können die Spiele auf die Besonderheiten der Endgeräte reagieren und so z.B. den Neigungssensor im Handy als Lenkrad in das Spiel integrieren.
+
+## In welchen Rollen werden wir an dem Spiel arbeiten?
+Ihr werdet eine oder mehrere der folgenden Rollen bei der Entwicklung einnehmen.
+
+### Game Designer
+Der Game Designer einwickelt eine Vision des Spiels. Er beschreibt was der Spieler in dem Spiel unternehmen kann, welche Charaktere er treffen wird und welche Entscheidungen er treffen kann. Alle Optionen und sämtliche Interaktionen werden durch den Game Designer definiert.
+
+### Game Developer
+Als Game Developer setzt ihr die Ideen des Game Designer technisch um. Dafür werden diverse Kompontenten wie Physik, Grafik Engine, AI uvm. entwickelt oder integriert.
+
+### Visual Artist
+Der Visual Artist erstellt alle visuallen Element, wie 3D Modelle, Texturen, Materialien und Effekte, für das Spiel.
+
+### Audio Engineer
+Der Audio Engineer ist vergleichbar mit dem Visual Artist, nur das dieser statt Grafiken Geräusche erstellt. Dazu gehören neben Effekten auch die Hintergrund Musik, der Sound Track und vertonte Dialoge.
+
+### Animator
+Der Animator erweckt die 3D Modelle des Visual Artist zum Leben.
+
+### Level Designer
+Der Level Designer kombiniert die visuellen und akustischen Komponenten und erstellt damit ein Level für das Spiel. 
+
+### Producer
+Der Producer steuert und überwacht den Erstellungsprozess des Spiels (auch Finanziell).
+
+### QA Tester
+Die QA bestätigt die Qualität des Spiels und zeigt Mängel (Bugs) auf.
 
 ## Gibt es ein Game Engine die ich verwenden kann?
 Es gibt [diverse Game Engines](https://github.com/showcases/javascript-game-engines) mit der ihr euer Web Game erstellen könnt. Um euch die Auswahl zu erleichtern haben wir  drei Engines ausgewählt und entsprechende Vorlagen vorbereitet.
@@ -26,7 +53,8 @@ Vorlagen auf GitHub:
 - Typescript [under development]
 
 ### Three.js
-Three.js ist eine Open Source 3D Game Engine.
+Wer eine 3D-Anwendung wie ein Spiel ins Internet bringen will, kommt an WebGL kaum vorbei. Doch die Programmierung darin ist umständlich und fehleranfällig. Mit der JavaScript-Bibliothek Three.js gehts viel leichter.
+WebGL bietet dem JavaScript-Entwickler eine Unmenge an Möglichkeiten – von der Darstellung einfacher 3D-Modelle bis hin zur direkten Programmierung des Grafikprozessors. 
 
 Weiter Infos: [https://threejs.org](https://threejs.org)
 
