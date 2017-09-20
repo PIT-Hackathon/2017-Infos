@@ -109,4 +109,11 @@ Da ihr im Team arbeiten werden, ich eine Source Code Verwaltung ideal. Damit kö
     - [Playground](https://www.typescriptlang.org/play/index.html)
 - HTML5
     - [Tutorial](https://wiki.selfhtml.org/wiki/HTML/Tutorials/HTML5-Grundger%C3%BCst)
+- Massiv Open Online Courses (MOOC) zu Gamedesign und Gamedevelopment
+    - [edX : 5 teiliger Kurs zu Gamedesign & -development](https://www.edx.org/xseries/video-game-design)
+    - [studyToLearn: Kurz zu Konzepten im Gamedesign](https://www.open2study.com/courses/concepts-in-game-development)
+    - [coursera: Game Design and Development Specialization](https://www.coursera.org/specializations/game-development)
+    - [coursera: Game Design: Art and Concepts Specialization](https://www.coursera.org/specializations/game-design)
+    - [und natürlich: ExtraCredits](https://www.youtube.com/user/ExtraCreditz)
+
 
