@@ -42,7 +42,7 @@ Die NodeMCU Hardware ist eine Mikrocontroller-Plattform ähnlich zum Arduino. Da
 
 Damit Du Deine IoT Idee umsetzen kannst, haben wir versucht, eine Auwahl an Sensoren und Aktoren zu treffen, die Dir und den anderen Gruppen während des Hackathons zur Verfügung stehen. Schau Dir doch mal die Liste an, vielleicht hast Du ja eine gute Idee, was für ein Projekt man mit den Bauteilen umsetzen könnte. Die genauen Bezeichnungen der Module können Dir helfen, mehr Informationen zu den einzelnen Komponenten zu finden.
 
-- NFC Module (RC522 RFID-Modul) und passende NFC Tags zur kontaktlosen Kommunikation
+- NFC Module (RC522 RFID-Modul) und passende NFC Tags zur kontaktlosen Kommunikation ([Arduino Bibliothek](https://github.com/miguelbalboa/rfid))
 - TFT Displays (240x320, ILI9341 kompatibel)
 - Adafruit NeoPixel Stick
 - Temperatur- / Luftfeuchtigkeitssensoren (DHT22)
