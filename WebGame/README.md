@@ -59,7 +59,7 @@ WebGL bietet dem JavaScript-Entwickler eine Unmenge an Möglichkeiten – von de
 Weiter Infos: [https://threejs.org](https://threejs.org)
 
 Vorlagen auf GitHub:
-- Javascript [under development]
+- Javascript [https://github.com/PIT-Hackathon/2017-WebGame-Three-ES2017](https://github.com/PIT-Hackathon/2017-WebGame-Three-ES2017)
 
 ## Muss das Spiel im Browser (Web) laufen oder kann ich auch eine Desktop Applikation entwickeln?
 Nein, es muss kein Web Game sein. Du kann auch jede beliebig andere Plattform nutzen. 
