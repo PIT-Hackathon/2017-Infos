@@ -40,8 +40,7 @@ Phaser ist eine Open Source 2D Game Engine um HTML 5 Spiele für den Browser als
 Weiter Infos: [http://phaser.io](http://phaser.io)
 
 Vorlagen auf GitHub:
-- Javascript [https://github.com/PIT-Hackathon/2017-WebGame-Phaser-ES2017](https://github.com/PIT-Hackathon/2017-WebGame-Phaser-ES2017)
-- Typescript [under development]
+- JavaScript [https://github.com/PIT-Hackathon/2017-WebGame-Phaser-ES2017](https://github.com/PIT-Hackathon/2017-WebGame-Phaser-ES2017)
 
 ### Babylon.js
 Babylon.js ist eine Open Source 3D Game Engine. Die Engine wurde komplett in Typescript geschrieben.
@@ -49,8 +48,8 @@ Babylon.js ist eine Open Source 3D Game Engine. Die Engine wurde komplett in Typ
 Weiter Infos: [https://www.babylonjs.com](https://www.babylonjs.com)
 
 Vorlagen auf GitHub:
-- Javascript [https://github.com/PIT-Hackathon/2017-WebGame-Babylon-ES2017](https://github.com/PIT-Hackathon/2017-WebGame-Babylon-ES2017)
-- Typescript [under development]
+- JavaScript [https://github.com/PIT-Hackathon/2017-WebGame-Babylon-ES2017](https://github.com/PIT-Hackathon/2017-WebGame-Babylon-ES2017)
+- TypeScript [https://github.com/PIT-Hackathon/2017-WebGame-Babylon-TypeScript](https://github.com/PIT-Hackathon/2017-WebGame-Babylon-TypeScript)
 
 ### Three.js
 Wer eine 3D-Anwendung wie ein Spiel ins Internet bringen will, kommt an WebGL kaum vorbei. Doch die Programmierung darin ist umständlich und fehleranfällig. Mit der JavaScript-Bibliothek Three.js gehts viel leichter.
@@ -59,7 +58,7 @@ WebGL bietet dem JavaScript-Entwickler eine Unmenge an Möglichkeiten – von de
 Weiter Infos: [https://threejs.org](https://threejs.org)
 
 Vorlagen auf GitHub:
-- Javascript [https://github.com/PIT-Hackathon/2017-WebGame-Three-ES2017](https://github.com/PIT-Hackathon/2017-WebGame-Three-ES2017)
+- JavaScript [https://github.com/PIT-Hackathon/2017-WebGame-Three-ES2017](https://github.com/PIT-Hackathon/2017-WebGame-Three-ES2017)
 
 ## Muss das Spiel im Browser (Web) laufen oder kann ich auch eine Desktop Applikation entwickeln?
 Nein, es muss kein Web Game sein. Du kann auch jede beliebig andere Plattform nutzen. 
