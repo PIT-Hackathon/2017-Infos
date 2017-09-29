@@ -116,6 +116,7 @@ Da ihr im Team arbeiten werden, ich eine Source Code Verwaltung ideal. Damit kö
     - [coursera: Game Design Art and Concepts Specialization](https://www.coursera.org/specializations/game-design)
     - [und natürlich: ExtraCredits](https://www.youtube.com/user/ExtraCreditz)
 - Tools
+    - [Jesse Schell: A book of lense (Android App)](https://play.google.com/store/apps/details?id=com.schellgames.deckoflenses&hl=de)
     - [MDA Framework: A Formal Approach to Game Design and Game Research](http://www.cs.northwestern.edu/~hunicke/MDA.pdf)
     - [High Concept Document Template](https://www.dropbox.com/s/cit5rsx8f5d5o6b/HighConceptTemplate.pdf?dl=0)
     - [One Page Game Design Document Template](https://www.dropbox.com/s/xfmzl2d64teinre/OnePageGameDesignDocument.pdf?dl=0)
