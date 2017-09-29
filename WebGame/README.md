@@ -119,6 +119,26 @@ Da ihr im Team arbeiten werden, ich eine Source Code Verwaltung ideal. Damit kö
     - [High Concept Document Template](https://www.dropbox.com/s/cit5rsx8f5d5o6b/HighConceptTemplate.pdf?dl=0)
     - [One Page Game Design Document Template](https://www.dropbox.com/s/xfmzl2d64teinre/OnePageGameDesignDocument.pdf?dl=0)
     - [Game Story Bible Template](https://www.dropbox.com/s/hapw4l0bev115r5/GameStoryBibleTemplate.pdf?dl=0)
+- Software
+    - [Autodesk 3ds Max (Educational)](http://www.autodesk.com/education/free-software/3ds-max)
+    - [Autodesk Maya (Educational)](https://www.autodesk.com/education/free-software/maya)
+- Texturen
+    - [CG Textures] (http://www.cgtextures.com/)
+    - [Texture King] (http://www.textureking.com)
+    - [Textured] (http://www.2textured.com)
+    - [Stock Textures] (http://stocktextures.com/)
+- Audio Assets
+    - [Flashkit] (http://www.flashkit.com/soundfx/)
+    - [Indie Game Music] (http://indiegamemusic.com/)
+    - [Jamendo] (http://www.jamendo.com/)
+    - [Free Sound Effects] (http://www.freesoundeffects.com/)
+- Models
+    - [TurboSquid] (http://www.turbosquid.com/Search/?KEYWORD=Free)
+    - [Archive 3d] (http://www.archive3d.net)
+    - [3d Xtras] (http://www.3dxtras.com/index.asp)
+    - [Artist-3d] (http://www.artist-3d.com/)
+    - [Exchange 3d] (http://www.exchange3d.com/FreeModels/cat_35.html)
+    
     
 
 
