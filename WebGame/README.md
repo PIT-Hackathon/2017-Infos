@@ -125,7 +125,6 @@ Da ihr im Team arbeiten werden, ich eine Source Code Verwaltung ideal. Damit kö
 - Texturen
     - [CG Textures](http://www.cgtextures.com/)
     - [Texture King](http://www.textureking.com)
-    - [Textured](http://www.2textured.com)
     - [Stock Textures](http://stocktextures.com/)
 - Audio Assets
     - [Flashkit](http://www.flashkit.com/soundfx/)
