@@ -87,6 +87,7 @@ Da ihr im Team arbeiten werden, ich eine Source Code Verwaltung ideal. Damit kö
 
 * Download: [https://git-scm.com](https://git-scm.com)
 * Anleitung: [tryGit - learn git in 15 minutes](https://try.github.io/levels/1/challenges/1)
+* MOOC: [Wie man Git und GitHub nutzt](https://de.udacity.com/course/how-to-use-git-and-github--ud775)
 
 ## Tutorials & Anleitungen
 
